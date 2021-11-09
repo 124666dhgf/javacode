@@ -1,0 +1,15 @@
+#mycanvas{background-color: lightgreen;}
+
+#gd1{background-image: linear-gradient(red,yellow);width:500px;height: 250px;}
+#gd2{background-image: linear-gradient(to bottom right,rgb(166, 255, 0),yellow);width:500px;height: 250px;}
+#gd3{background-image: linear-gradient(180deg,rgb(195, 0, 255),rgb(94, 255, 0));width:500px;height: 250px;}
+#gd4{background-image: linear-gradient(orange,rgb(0, 255, 170),rgb(0, 195, 255));width:500px;height: 250px;}
+#rd5{background-image: radial-gradient(rgba(255, 0, 170, 0.945),rgb(98, 0, 255),rgb(0, 255, 255));width:500px;height: 250px;}
+#rd6{background-image: radial-gradient(rgb(255, 0, 98) 20%,rgb(0, 255, 98) 15%,rgb(0, 17, 255) 10%);width:500px;height: 250px;}
+#rd7{background-image: radial-gradient(circle,red,green,yellow);width:500px;height: 250px;}
+#rd8{background-image: radial-gradient(closest-side at 60% 55%,green,yellow,orange);width:500px;height: 250px;}
+@keyframes example{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+#divanimation{width: 100px;height:100px; background-color: red;animation-name: example;animation-duration: 4s;}

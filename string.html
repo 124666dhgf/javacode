@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>string variable</title>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id="q1"></h1>
+        <h1 id="q2"></h1>
+        <h1 id="q3"></h1>
+        <h1 id="q4"></h1>
+        <h5 id="q5"></h5>
+        <h5 id="q6"></h5>
+        <h5 id="q7"></h5>
+
+
+        <script>
+            var sen="The Encyclopedia of World Biography provides insight and details about the lives of 7,000 of the world’s most notable figures.From \"Princess Diana\" to\"Mother Teresa\" many individuals from different cultures and in different fields who have made an impact (both good and bad) are profiled here";
+            
+         let text= sen.replace("Princess Diana","Queen Elizabeth");
+         let text3= sen.concat(" ",text)  
+            document.getElementById("q1").innerHTML= sen.length;
+            document.getElementById("q2").innerHTML= sen.slice(4,16);
+            document.getElementById("q3").innerHTML= sen.substring(19,52);
+            document.getElementById("q4").innerHTML= sen.substr(56,5);
+            document.getElementById("q5").innerHTML= sen;
+            document.getElementById("q6").innerHTML= text;
+            document.getElementById("q7").innerHTML= text3;
+            
+        </script>
+    </body>
+    
+</html>

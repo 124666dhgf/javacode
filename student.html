@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>string variable</title>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id="t1"></h1>
+        
+
+
+        <script>
+            const student={name:"Lynn Mary Mathew ",rollno:15,mathsmark:90,sciencemark:95,englishmark:98,
+            studentdetails:function (){
+                
+                let tot=this.mathsmark+this.sciencemark+this.englishmark;
+                return this.name+"<br>roll no: "+this.rollno+"<br>mathsmark: "+this.mathsmark+"<br>sciencemark: "+this.sciencemark+"<br>total mark:"+tot;
+            }};
+            let total= student.studentdetails();
+            document.getElementById("t1").innerHTML=total;
+            
+            
+        </script>
+    </body>
+    
+</html>

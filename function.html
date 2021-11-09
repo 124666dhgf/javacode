@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java</title>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+
+    </head>
+    <body>
+        <h2 id="fnc"></h2>
+        
+        
+        <script>
+            const employee={empid:132,empname:"rajan",desg:"soft.engineer",
+            empdetails:function(){
+             return this.empid+" name is "+this.empname+"role is "+this.desg;
+            }
+        } ; 
+          let data= employee.empdetails();         
+            document.getElementById("fnc").innerHTML=data;
+            function add2numbers(n1,n2){
+                let res= n1+n2;
+                return res
+            }
+            
+            let sum= add2numbers(12,15);
+            document.getElementById()
+
+
+        </script>
+    </body>
+</html>
